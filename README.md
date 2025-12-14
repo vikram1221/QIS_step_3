@@ -2,8 +2,6 @@
 
 This project implements a cross-sectional momentum strategy (12–1) on the Magnificent 7 stocks. Signals are constructed using rolling returns, standardized cross-sectionally, and evaluated using performance, information coefficient (IC), and turnover diagnostics.
 
----
-
 ## Project Structure & Reproducibility
 
 The research pipeline is designed with a clear separation between **research computation** and
