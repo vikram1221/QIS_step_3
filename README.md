@@ -2,10 +2,10 @@
 
 This project implements a cross-sectional momentum strategy (12–1) on the Magnificent 7 stocks. Signals are constructed using rolling returns, standardized cross-sectionally, and evaluated using performance, information coefficient (IC), and turnover diagnostics.
 
-## Project Structure & Reproducibility
+This project implements a way to calculate the momemtum of stocks of the Magnificent 7 stocks over the last 12 months minus the last month, as very short term price movements tend to reverse. These signals are constructed using rolling returns for the various periods, used to construct portfolio weights, and turnover diagnostics. 
 
-The research pipeline is designed with a clear separation between **research computation** and
-**public presentation**.
+
+## Project Structure & Reproducibility
 
 ## Research Code
 The core research logic is implemented in Python and is intended to be run locally.
